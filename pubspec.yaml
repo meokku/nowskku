@@ -39,11 +39,16 @@ dependencies:
   flutter_platform_widgets: ^3.3.5
   provider: ^6.0.5
   html: ^0.15.4
+  timer_builder: ^2.0.0
+  intl: ^0.17.0
+  url_launcher: ^6.1.11
 
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_native_splash: ^2.2.7
+
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
@@ -62,7 +67,10 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
-
+  assets:
+    - assets/background.png
+    - assets/splash.png
+    - assets/logo.png
   # To add assets to your application, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg
@@ -73,7 +81,18 @@ flutter:
 
   # For details regarding adding assets from package dependencies, see
   # https://flutter.dev/assets-and-images/#from-packages
-
+  fonts:
+    - family: BlackHanSans
+      fonts:
+        - asset: assets/BlackHanSans-Regular.ttf
+    - family: Wooju
+      fonts:
+        - asset: assets/HakgyoansimWoojuR.ttf
+    - family: Elice
+      fonts:
+        - asset: assets/EliceDigitalBaeum_Bold.ttf
+          weight: 700
+        - asset: assets/EliceDigitalBaeum_regular.ttf
   # To add custom fonts to your application, add a fonts section here,
   # in this "flutter" section. Each entry in this list should have a
   # "family" key with the font family name, and a "fonts" key with a
