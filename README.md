@@ -1,16 +1,9 @@
 # nowskku
 
 지금, 성균관대
+- 성균관대학교 편의시설 및 셔틀버스 실시간 현황 애플리케이션
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Information
+- 교내 편의시설 실시간 정보 (현재 시간을 기반으로 운영 중일 시 초록색 원, 닫았을 시 빨간색 원)
+    - 제세동기, 편의시설 및 도서관 등의 운영 정보를 기반으로 함
+- 셔틀버스 실시간 정보
